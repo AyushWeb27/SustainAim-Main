@@ -1,4 +1,1 @@
-{
-"corepack enable pnpm && corepack prepare pnpm@latest --activate && pnpm install"
-"pnpm run build"
-}
+{"installCommand":"corepack enable pnpm && corepack prepare pnpm@latest --activate && pnpm install","buildCommand":"pnpm run build","outputDirectory":"dist"}

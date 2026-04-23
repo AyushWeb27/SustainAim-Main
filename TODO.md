@@ -14,5 +14,7 @@
 
 **Progress Update:** Clean install complete, no pnpm-lock.yaml (OK, using corepack).
 
-**Next step:** Update vercel.json with corepack pnpm
+✅ 3. vercel.json fixed & updated ✅
+
+**Task complete:** Commit/push changes, Vercel will redeploy with fixed build.
 
