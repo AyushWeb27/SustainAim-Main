@@ -1,0 +1,58 @@
+/* SustainAIM Brand Colors */
+:root {
+  /* Primary brand colors */
+  --brand-primary: #004445;
+  --brand-secondary: #2c7873;
+  --brand-light: #d8f3f3;
+  --brand-hover: #003333;
+  
+  /* RGB values for use with opacity */
+  --brand-primary-rgb: 0, 68, 69;
+  --brand-secondary-rgb: 44, 120, 115;
+  --brand-light-rgb: 216, 243, 243;
+}
+
+/* Utility classes for brand colors */
+.text-brand {
+  color: var(--brand-secondary);
+}
+
+.text-brand-dark {
+  color: var(--brand-primary);
+}
+
+.bg-brand {
+  background-color: var(--brand-secondary);
+}
+
+.bg-brand-dark {
+  background-color: var(--brand-primary);
+}
+
+.bg-brand-light {
+  background-color: var(--brand-light);
+}
+
+.border-brand {
+  border-color: var(--brand-secondary);
+}
+
+.hover\:text-brand:hover {
+  color: var(--brand-secondary);
+}
+
+.hover\:bg-brand:hover {
+  background-color: var(--brand-secondary);
+}
+
+.hover\:bg-brand-hover:hover {
+  background-color: var(--brand-hover);
+}
+
+.focus\:border-brand:focus {
+  border-color: var(--brand-secondary);
+}
+
+.focus\:ring-brand:focus {
+  --tw-ring-color: rgb(var(--brand-secondary-rgb) / 0.2);
+}
