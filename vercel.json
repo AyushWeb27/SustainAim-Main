@@ -1,1 +1,1 @@
-{"installCommand":"corepack enable pnpm && corepack prepare pnpm@latest --activate && pnpm install","buildCommand":"pnpm run build","outputDirectory":"dist"}
+{"installCommand":"corepack enable pnpm && corepack prepare pnpm@latest --activate && pnpm install","buildCommand":"pnpm run build","outputDirectory":"dist","rewrites":[{"source":"/(.*)","destination":"/index.html"}]}
